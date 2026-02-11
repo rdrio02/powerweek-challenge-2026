@@ -807,7 +807,7 @@ section {
     .site-nav {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 16px;
+        gap: 8px;
     }
 
     .brand-image {
