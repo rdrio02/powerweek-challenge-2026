@@ -714,6 +714,7 @@
                                         <span style="width:${percent}%"></span>
                                     </div>
                                     <strong>${percent}%</strong>`;
+                    summaryGrid.appendChild(row);
                 });
                 summaryBest.textContent = `Meilleure correspondance: ${btsLabels[winner]} (${Math.round((scores[winner]/total)*100)}%).`;
             }
