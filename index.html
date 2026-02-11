@@ -709,10 +709,14 @@
                     const percent = Math.round((count / total) * 100);
                     const row = document.createElement("div");
                     row.className = "summary-row";
-                    row.innerHTML = `<span>${key}</span><div class="summary-bar"><span style="width:${percent}%"></span></div><strong>${percent}%</strong>`;
+                    row.innerHTML = `<span>${btsLabels[key]}</span>
+                                    <div class="summary-bar">
+                                        <span style="width:${percent}%"></span>
+                                    </div>
+                                    <strong>${percent}%</strong>`;
                     summaryGrid.appendChild(row);
                 });
-                summaryBest.textContent = `Best fit: ${winner} (${Math.round((scores[winner]/total)*100)}%).`;
+                summaryBest.textContent = `Best fit: ${btsLabels[winner]} (${Math.round((scores[winner]/total)*100)}%).`;
             }
         });
 
