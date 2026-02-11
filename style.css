@@ -820,6 +820,34 @@ section {
     }
 }
 
+#bee-container {
+  position: fixed;
+  bottom: 120px;
+  left: -150px; /* start off-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+  transition: left 3s ease-in-out; /* slide in smoothly */
+}
+
+#bee {
+  width: 120px;
+  height: 120px;
+}
+
+#bee-message {
+  display: none; /* hidden initially */
+  background: #f5c64b;
+  padding: 8px 12px;
+  border-radius: 12px;
+  margin-top: 8px;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+
 @media (max-width: 700px) {
     .nav-links {
         display: none;
@@ -829,4 +857,19 @@ section {
         justify-content: center;
         gap: 16px;
     }
+
+    #bee {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    #bee-message {
+        font-size: 12px;      
+        padding: 6px 10px;
+        margin-top: 6px;       
+    }
 }
+
+
+

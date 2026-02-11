@@ -30,6 +30,12 @@
     </header>
 
     <main>
+
+        <div id="bee-container">
+            <img id="bee" src="pictures/bee-gif.gif" alt="Bee" />
+            <div id="bee-message">Need help finding BTS in Luxembourg?</div>
+        </div>
+
         <section id="overview" class="hero">
             <div class="hero-content">
                 <p class="eyebrow">National BTS Portal</p>
@@ -742,6 +748,56 @@
         });
 
         renderQuestion();
+
+        window.addEventListener('load', () => {
+            const beeContainer = document.getElementById('bee-container');
+            const beeMessage = document.getElementById('bee-message');
+
+            // Slide the bee in
+            setTimeout(() => {
+                beeContainer.style.left = '40px'; // final stopping position
+            }, 1000);
+
+            // Show message after bee finishes sliding in
+            setTimeout(() => {
+                beeMessage.style.display = 'block';
+            }, 4000); // 1s delay + 3s slide
+
+            // Fly out automatically after 4s of message display
+            const autoFlyOut = setTimeout(() => {
+                beeMessage.style.display = 'none';
+                beeContainer.style.left = '100vw';
+            }, 8000);
+
+            // Wiggle animation while bee is visible
+            const wiggleInterval = setInterval(() => {
+                beeContainer.style.transform = 'translateY(-5px)';
+                setTimeout(() => {
+                beeContainer.style.transform = 'translateY(0)';
+                }, 300);
+            }, 600);
+
+            // Stop wiggle when bee flies out
+            setTimeout(() => {
+                clearInterval(wiggleInterval);
+            }, 8000);
+
+            // dd click/press behavior
+            beeContainer.addEventListener('click', () => {
+                clearTimeout(autoFlyOut); 
+                beeMessage.style.display = 'none';    
+                beeContainer.style.left = '100vw';   
+                clearInterval(wiggleInterval);        
+
+                // Scroll to the quiz section smoothly
+                const quizSection = document.getElementById('quiz');
+                if (quizSection) {
+                quizSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+
     </script>
 
 </body>
