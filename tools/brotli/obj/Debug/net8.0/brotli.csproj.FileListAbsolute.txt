@@ -1,0 +1,14 @@
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\bin\Debug\net8.0\brotli.exe
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\bin\Debug\net8.0\brotli.deps.json
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\bin\Debug\net8.0\brotli.runtimeconfig.json
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\bin\Debug\net8.0\brotli.dll
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\bin\Debug\net8.0\brotli.pdb
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\brotli.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\brotli.AssemblyInfoInputs.cache
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\brotli.AssemblyInfo.cs
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\brotli.csproj.CoreCompileInputs.cache
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\brotli.dll
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\refint\brotli.dll
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\brotli.pdb
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\brotli.genruntimeconfig.cache
+c:\Users\Joe\OneDrive - 365education\Desktop\Year2\PowerWeek\tools\brotli\obj\Debug\net8.0\ref\brotli.dll

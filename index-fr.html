@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS Education Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <img class="brand-image" src="pictures/Logo2.png" alt="BEE The System logo">
+        </div>
+
+        <nav class="site-nav" aria-label="Primary">
+            <div class="lang-switch">
+                <a href="index.html">EN</a> |
+                <a href="index-fr.html">FR</a>
+            </div>
+            <a href="#overview">Overview</a>
+            <a href="#bts-list">BTS Elements</a>
+            <a href="#quiz">Questionnaire</a>
+            <a href="#game">Play</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">National BTS Portal</p>
+                <h2>Trouvez, comparez et apprenez sur chaque BTS en un seul endroit.</h2>
+                <p class="hero-copy">
+                    Cette plateforme collecte les profils BTS, programmes, localisations et points de contact
+                    afin que les étudiants et les familles puissent faire des choix confiants.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn" href="#bts-list">Explorer BTS</a>
+                    <a class="btn ghost" href="#game">Jouer le jeu BTS</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#bts-list">Recherche de BTS</a></li>
+                    <li><a href="#info">Programmes & Parcours</a></li>
+                    <li><a href="#game">Jeu BTS</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="bts-list" class="panel bts-panel">
+            <h3>Toutes les formations BTS</h3>
+            <!-- <p class="panel-subtitle">Grouped by category. Replace the placeholders with your full list.</p> -->
+
+            <div class="bts-category commerce">
+                <div class="bts-heading">
+                    <h4>BTS Commerce</h4>
+                    <span class="bts-badge">Business</span>
+                </div>
+                <div class="bts-grid">
+                    <div class="bts-item" 
+                        data-link="https://www.ecg.lu/">
+                        <h5>Assistant de direction</h5>
+                        <p>École de Commerce et de Gestion (ECG)</p>
+
+                        <p class="bts-popup-text"><b> La formation  </b>s’articule  autour des pôles centraux suivants : 
+                            communication et organisation, expression écrite et orale, culture 
+                            générale en économie et en droit, techniques et outils de gestion.<br><br>
+                        <b>Email: </b> - info@ecg.lu - </p>
+                        
+
+                    </div>
+                    <div class="bts-item">
+                        <h5>Assistant juridique</h5>
+                        <p>École de Commerce et de Gestion (ECG)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Gestionnaire comptable et fiscal</h5>
+                        <p>École de Commerce et de Gestion (ECG)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Finance et Produits financiers</h5>
+                        <p>École de Commerce et de Gestion (ECG)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Hospatility Managment</h5>
+                        <p>École de Commerce et de Gestion (ECG)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Commerce (formation en alternance)</h5>
+                        <p>Lycée du Nord (LN)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Assistant médico-administratif</h5>
+                        <p>Maacher Lycée (MLG) </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bts-category sante">
+                <div class="bts-heading">
+                    <h4>BTS Santé</h4>
+                    <span class="bts-badge">Healthcare</span>
+                </div>
+                <div class="bts-grid">
+                    <div class="bts-item">
+                        <h5>Infirmier responsable de soins généraux</h5>
+                        <p>Lycée Technique pour Professions de Santé (LTPS)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Sage-femme</h5>
+                        <p>Lycée Technique pour Professions de Santé (LTPS)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Assistant technique médical de radiologie</h5>
+                        <p>Lycée Technique pour Professions de Santé (LTPS)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Assistant technique mödical de radiologie</h5>
+                        <p>Lycée Technique pour Professions de Santé (LTPS)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Infirmier en anesthésiste et réanimation</h5>
+                        <p>Lycée Technique pour Professions de Santé (LTPS)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Infirmier en pédiatrie</h5>
+                        <p>Lycée Technique pour Professions de Santé (LTPS)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bts-category industrie">
+                <div class="bts-heading">
+                    <h4>BTS Industrie</h4>
+                    <span class="bts-badge">Engineering</span>
+                </div>
+                <div class="bts-grid">
+                    <div class="bts-item">
+                        <h5>Bâtiment et infrastructures</h5>
+                        <p>Lycée Josy Barthel Mamer (LJBM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Building Information Modeling</h5>
+                        <p>Lycée Josy Barthel Mamer (LJBM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Dessinateur et constructeur sur métal</h5>
+                        <p>Lycée Technique de Bonnevoie (LTB)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Communication Technlogies</h5>
+                        <p>Lycée Guillaume Kroll (LGK)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Chemie analytique</h5>
+                        <p>Lycée Technique du Centre (LTC)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bts-category arts">
+                <div class="bts-heading">
+                    <h4>BTS Arts Appliqués</h4>
+                    <span class="bts-badge">Design</span>
+                </div>
+                <div class="bts-grid">
+                    <div class="bts-item">
+                        <h5>Cinéma et audiovisuel</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Dessin d’animation</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Réalisauteur graphique</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Game Art and Game Design</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bts-category artisanat">
+                <div class="bts-heading">
+                    <h4>BTS Artisanat</h4>
+                    <span class="bts-badge">Craft</span>
+                </div>
+                <div class="bts-grid">
+                    <div class="bts-item">
+                        <h5>Technologie du Bois</h5>
+                        <p>Lycée du Nord (LN)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bts-category services">
+                <div class="bts-heading">
+                    <h4>BTS Services</h4>
+                    <span class="bts-badge">Digital</span>
+                </div>
+                <div class="bts-grid">
+                    <div class="bts-item">
+                        <h5>Media Writing</h5>
+                        <p>Lycée Classique de Diekirch (LCD)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Connected Buildings &amp; Cities</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Génie technique</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Informatique</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Professions immobilières</h5>
+                        <p>Lycée Josy Barthel Mamer</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Game Programming and Game Design</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Internet of Things</h5>
+                        <p>Lycée des Arts et Métiers (LAM)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Cloud Computing</h5>
+                        <p>Lycée Guillaume Kroll (LGK)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Cybersecurity</h5>
+                        <p>Lycée Guillaume Kroll (LGK)</p>
+                    </div>
+                    <div class="bts-item">
+                        <h5>Digital Content</h5>
+                        <p>Lycée Nic Biever (LNB)</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="info" class="panel">
+            <h3>Les éléments clés d'une formation BTS</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>Durée</h4>
+                    <p>Études d'enseignement supérieur avec un focus professionnel, généralement de 4 semestres</p>
+                </div>
+                <div class="card">
+                    <h4>Stages</h4>
+                    <p>Études combinant une instruction théorique et des stages pratiques dans des entreprises</p>
+                </div>
+                <div class="card">
+                    <h4>ECTS</h4>
+                    <p>Études organisées en modules et validées avec des crédits ECTS</p>
+                </div>
+                <div class="card">
+                    <h4>Secteur Professionnel</h4>
+                    <p>Un programme d'études développé conjointement par le lycée et les secteurs professionnels concernés et accrédité par le ministère de l'Enseignement supérieur et de la Recherche (MESR)</p>
+                </div>
+                <div class="card">
+                    <h4>Diplôme</h4>
+                    <p>Un diplôme national</p>
+                </div>
+                <div class="card">
+                    <h4>Partenaires Industriels</h4>
+                    <p>Stages, apprentissages et placement professionnel</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="info" class="panel">
+            <h3>Avantages d'une formation BTS</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>Bac+2 (Niveau Diplôme d'Associé) avec la Possibilité de Continuer ses Études</h4>
+                    <p>Un BTS permet aux étudiants d'obtenir un diplôme de niveau Bac+2, ouvrant la porte à des études supérieures supplémentaires</p>
+                </div>
+
+                <div class="card">
+                    <h4>Classes de 12 à 16 Étudiants Maximum</h4>
+                    <p>Les classes BTS sont généralement limitées à 12 à 16 étudiants, permettant un accompagnement personnalisé</p>
+                </div>
+
+                <div class="card">
+                    <h4>Plus Forte Contact avec les Enseignants</h4>
+                    <p>La taille réduite des classes encourage une interaction plus directe et un meilleur accompagnement des enseignants</p>
+                </div>
+
+                <div class="card">
+                    <h4>Plus Fortes Opportunités Pratiques</h4>
+                    <p>Les étudiants acquièrent une expérience pratique à travers des stages, des projets et des situations professionnelles réelles</p>
+                </div>
+                <div class="card">
+                    <h4>Sentiment de Communauté Forte</h4>
+                    <p>Les étudiants bénéficient d'un esprit de groupe fort et d'une collaboration au sein de leur programme BTS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="panel quiz-panel">
+            <div class="quiz-header">
+                <div>
+                    <p class="eyebrow">Questionnaire</p>
+                    <h3 id="quiz-main-title"> Quel BTS Category Convient à Votre Personnalité?</h3>
+                    <p id="quiz-subtitle" class="hero-copy">
+                        Repondez à quelques questions rapides et nous vous suggérerons la catégorie BTS
+                        qui correspond le mieux à votre style.
+                    </p>
+                </div>
+                <div class="quiz-score">
+                    <span>Questionnaire</span>
+                    
+                </div>
+            </div>
+
+            <form id="bts-quiz" class="quiz-form">
+                <div class="quiz-progress" id="quiz-progress">Question 1 of 4</div>
+                <div class="quiz-question" id="quiz-question">
+                    <h4 id="quiz-title">Question title</h4>
+                    <div class="quiz-options" id="quiz-options"></div>
+                </div>
+
+                <div class="quiz-actions">
+                    <button class="btn ghost" type="button" id="prev-question">Retour</button>
+                    <button class="btn" type="button" id="next-question">Continuer</button>
+                    <button class="btn" type="submit" id="submit-quiz" hidden>Obtenir ma catégorie BTS</button>
+                    <button class="btn ghost" type="button" id="reset-quiz">Réinitialiser</button>
+                </div>
+            </form>
+
+            <div class="quiz-result" id="quiz-result" aria-live="polite"></div>
+            <div class="quiz-summary" id="quiz-summary" hidden>
+                <h4>Résumé de l'Adaptation</h4>
+                <div class="quiz-summary-grid" id="quiz-summary-grid"></div>
+                <div class="quiz-best" id="quiz-best"></div>
+            </div>
+        </section>
+
+        <section id="game" class="panel game-panel">
+            <div class="game-header">
+                <div>
+                    <p class="eyebrow">Mini Game</p>
+                    <h3>BTS Game</h3>
+                </div>
+            </div>
+            <div class="game-frame">
+                <iframe
+                    title="BTS Game"
+                    src="build/Build/index.html"
+                    loading="lazy"
+                    allow="fullscreen"
+                ></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <p>Team 7: BEE the System</p>
+    </footer>
+
+    <div class="modal" id="bts-modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close="true"></div>
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" type="button" data-close="true">Close</button>
+            <h4 id="modal-title">BTS</h4>
+            <p class="modal-text" id="modal-text">More information coming soon.</p>
+            <a class="modal-link" id="modal-link" href="#" target="_blank" rel="noopener">Open BTS page</a>
+        </div>
+    </div>
+
+    <script>
+        const quizForm = document.getElementById("bts-quiz");
+        const quizResult = document.getElementById("quiz-result");
+        const quizReset = document.getElementById("reset-quiz");
+        const quizTitle = document.getElementById("quiz-title");
+        const quizOptions = document.getElementById("quiz-options");
+        const quizProgress = document.getElementById("quiz-progress");
+        const nextBtn = document.getElementById("next-question");
+        const prevBtn = document.getElementById("prev-question");
+        const submitBtn = document.getElementById("submit-quiz");
+        const summaryPanel = document.getElementById("quiz-summary");
+        const summaryGrid = document.getElementById("quiz-summary-grid");
+        const summaryBest = document.getElementById("quiz-best");
+        const quizMainTitle = document.getElementById("quiz-main-title");
+        const quizSubtitle = document.getElementById("quiz-subtitle");
+        
+        const btsLabels = {
+            RG: "Réalisateur graphique",
+            AN: "Dessin d’animation",
+            AGD: "Game Art & Game Design",
+            CAV: "Cinéma et audiovisuel",
+
+            IN: "Informatique",
+            GP: "Game Programming",
+            AI: "Artificial Intelligence",
+            IOT: "Internet of Things",
+
+            GT: "Génie technique",
+            CBC: "Connected Buildings & Cities",
+
+            COM_AD: "Assistant de direction",
+            COM_GCF: "Gestionnaire comptable et fiscal",
+
+            TB: "Technologie du Bois"
+        };
+
+
+        // First-level questions (category)
+        const questions = [
+            {
+                title: "Qu’est-ce que vous aimez le plus ?",
+                options: [
+                    { label: "Diriger et organiser", value: "commerce" },
+                    { label: "Aider les gens", value: "sante" },
+                    { label: "Construire et réparer", value: "industrie" },
+                    { label: "Créer et concevoir", value: "arts" },
+                    { label: "Travailler avec la technologie", value: "services" },
+                    { label: "Travailler de ses mains", value: "artisanat" }
+                ]
+            },
+            {
+                title: "Où vous sentez-vous le mieux ?",
+                options: [
+                    { label: "Bureaux et réunions", value: "commerce" },
+                    { label: "Espaces de santé et de soins", value: "sante" },
+                    { label: "Ateliers et chantiers", value: "industrie" },
+                    { label: "Studios et laboratoires", value: "arts" },
+                    { label: "Espaces technologiques et numériques", value: "services" },
+                    { label: "Ateliers et espaces de création", value: "artisanat" }
+                ]
+            },
+            {
+                title: "Quelle est votre force ?",
+                options: [
+                    { label: "Communication", value: "commerce" },
+                    { label: "Empathie", value: "sante" },
+                    { label: "Résolution de problèmes", value: "industrie" },
+                    { label: "Créativité", value: "arts" },
+                    { label: "Analyse", value: "services" },
+                    { label: "Patience", value: "artisanat" }
+                ]
+            },
+            {
+                title: "Quel projet vous attire le plus ?",
+                options: [
+                    { label: "Lancer un service", value: "commerce" },
+                    { label: "Soutenir le bien-être", value: "sante" },
+                    { label: "Concevoir quelque chose d’utile", value: "industrie" },
+                    { label: "Créer des médias", value: "arts" },
+                    { label: "Développer un outil numérique", value: "services" },
+                    { label: "Fabriquer un objet physique", value: "artisanat" }
+                ]
+            }
+        ];
+
+
+        // Second-level BTS questions per category
+        const btsQuestions = {
+            commerce: [
+                {
+                    title: "Préférez-vous la vente ou l'administration ?",
+                    options: [
+                        { label: "Vente et coordination", value: "COM_AD" },
+                        { label: "Comptabilité et finance", value: "COM_GCF" }
+                    ]
+                },
+                {
+                    title: "Aimez-vous travailler avec les chiffres et les données financières ?",
+                    options: [
+                        { label: "Oui", value: "COM_GCF" },
+                        { label: "Pas vraiment", value: "COM_AD" }
+                    ]
+                }
+            ],
+
+            arts: [
+                {
+                    title: "Ce que vous préférez créer est principalement :",
+                    options: [
+                        { label: "Images, logos ou mises en page", value: "RG" },
+                        { label: "Personnages, animations ou univers", value: "AN" },
+                        { label: "Vidéos, films ou contenus audiovisuels", value: "CAV" }
+                    ]
+                },
+                {
+                    title: "Vous aimez particulièrement :",
+                    options: [
+                        { label: "Le design et la communication visuelle", value: "RG" },
+                        { label: "Le dessin et l'animation", value: "AN" },
+                        { label: "Raconter des histoires et l'image animée", value: "CAV" }
+                    ]
+                },
+                {
+                    title: "Ce qui vous intéresse le plus :",
+                    options: [
+                        { label: "L'animation", value: "AN" },
+                        { label: "Les jeux vidéo", value: "AGD" },
+                        { label: "Le cinéma", value: "CAV" }
+                    ]
+                },
+                {
+                    title: "Votre travail idéal serait reconnu surtout pour :",
+                    options: [
+                        { label: "Son esthétique", value: "RG" },
+                        { label: "Son univers et ses personnages", value: "AGD" },
+                        { label: "Son impact visuel et narratif", value: "CAV" }
+                    ]
+                },
+                {
+                    title: "Préférez-vous la vidéo ou le dessin ?",
+                    options: [
+                        { label: "Vidéo", value: "CAV" },
+                        { label: "Dessin", value: "AN" }
+                    ]
+                },
+                {
+                    title: "Ou les médias numériques ?",
+                    options: [
+                        { label: "Design graphique", value: "RG" },
+                        { label: "Conception de jeux", value: "AGD" }
+                    ]
+                }
+            ],
+
+            services: [
+                {
+                    title: "Ce qui vous intéresse le plus en informatique est :",
+                    options: [
+                        { label: "Réseaux, systèmes et sécurité", value: "IN" },
+                        { label: "Programmation de jeux ou d'applications", value: "GP" },
+                        { label: "Nouvelles technologies", value: "AI" }
+                    ]
+                },
+                {
+                    title: "Vous préférez travailler sur :",
+                    options: [
+                        { label: "Des systèmes existants à maintenir et améliorer", value: "IN" },
+                        { label: "Des projets créatifs mais techniques", value: "GP" },
+                        { label: "Des solutions innovantes pour les entreprises", value: "IOT" }
+                    ]
+                },
+                {
+                    title: "Ce que vous aimez le plus dans votre travail :",
+                    options: [
+                        { label: "Des tâches structurées, précises et logiques", value: "IN" },
+                        { label: "Résoudre des problèmes créatifs et techniques", value: "GP" },
+                        { label: "Travailler avec de nouvelles technologies comme l'IA", value: "AI" }
+                    ]
+                },
+                {
+                    title: "Dans votre future carrière informatique, vous vous voyez plutôt comme :",
+                    options: [
+                        { label: "Technicien systèmes et réseaux / support IT", value: "IN" },
+                        { label: "Programmeur de jeux vidéo", value: "GP" },
+                        { label: "Technicien IA ou objets connectés", value: "IOT" }
+                    ]
+                }
+            ],
+
+            industrie: [
+                {
+                    title: "Vous préférez apprendre en :",
+                    options: [
+                        { label: "Manipulant et testant", value: "GT" },
+                        { label: "Observant et analysant", value: "CBC" },
+                        { label: "Planifiant et organisant", value: "GT" }
+                    ]
+                },
+                {
+                    title: "Ce qui vous attire le plus dans le travail technique :",
+                    options: [
+                        { label: "Électricité, énergie et installations", value: "GT" },
+                        { label: "Bâtiments intelligents et connectés", value: "CBC" },
+                        { label: "Gestion de projets techniques", value: "GT" }
+                    ]
+                },
+                {
+                    title: "Vous aimeriez que votre futur travail soit surtout :",
+                    options: [
+                        { label: "Pratique et utile au quotidien", value: "GT" },
+                        { label: "Innovant et durable", value: "CBC" },
+                        { label: "Polyvalent : terrain + bureau", value: "GT" }
+                    ]
+                }
+            ],
+
+            artisanat: [
+                {
+                    title: "Quel artisanat vous intéresse le plus ?",
+                    options: [
+                        { label: "Travail du bois", value: "TB" }
+                    ]
+                }
+            ]
+        };
+
+
+        const labels = {
+            commerce: "BTS Commerce",
+            sante: "BTS Santé",
+            industrie: "BTS Industrie",
+            arts: "BTS Arts Appliqués",
+            artisanat: "BTS Artisanat",
+            services: "BTS Services"
+        };
+
+        let currentQuestion = 0;
+        let currentLevel = "category"; // 'category' or 'bts'
+        let selectedCategory = null;
+        let answers = [];
+
+        // Render questions
+        function renderQuestion() {
+            let currentQuestions = currentLevel === "category" ? questions : btsQuestions[selectedCategory];
+            const question = currentQuestions[currentQuestion];
+
+            quizTitle.textContent = question.title;
+            quizOptions.innerHTML = "";
+            quizProgress.textContent = `Question ${currentQuestion + 1} de ${currentQuestions.length}`;
+            prevBtn.disabled = currentQuestion === 0;
+            nextBtn.hidden = currentQuestion === currentQuestions.length - 1;
+            submitBtn.hidden = currentQuestion !== currentQuestions.length - 1;
+
+            question.options.forEach((option, index) => {
+                const label = document.createElement("label");
+                label.innerHTML = `<input type="radio" name="q${currentQuestion}" value="${option.value}"> ${option.label}`;
+                if (answers[currentQuestion] === option.value) {
+                    label.querySelector("input").checked = true;
+                }
+                quizOptions.appendChild(label);
+            });
+        }
+
+        function getSelectedValue() {
+            const selected = quizOptions.querySelector("input:checked");
+            return selected ? selected.value : null;
+        }
+
+        nextBtn.addEventListener("click", () => {
+            const value = getSelectedValue();
+            if (!value) {
+                quizResult.textContent = "Veuillez choisir une option pour continuer.";
+                quizResult.className = "quiz-result";
+                return;
+            }
+            answers[currentQuestion] = value;
+            currentQuestion += 1;
+            quizResult.textContent = "";
+            renderQuestion();
+        });
+
+        prevBtn.addEventListener("click", () => {
+            if (currentQuestion === 0) return;
+            currentQuestion -= 1;
+            quizResult.textContent = "";
+            renderQuestion();
+        });
+
+        quizForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+            const value = getSelectedValue();
+            if (!value) {
+                quizResult.textContent = "Veuillez choisir une option pour continuer.";
+                quizResult.className = "quiz-result";
+                return;
+            }
+            answers[currentQuestion] = value;
+
+            if (currentLevel === "category") {
+                // Determine category winner
+                const scores = { commerce: 0, sante: 0, industrie: 0, arts: 0, artisanat: 0, services: 0 };
+                answers.forEach(ans => { if (ans) scores[ans] += 1; });
+                selectedCategory = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
+                
+                // Update titles for BTS level
+                quizMainTitle.textContent = `Votre catégorie BTS est ${labels[selectedCategory]}`;
+                quizSubtitle.textContent =
+                    "Maintenant, répondez à quelques questions supplémentaires pour découvrir la formation BTS qui vous convient le mieux.";
+
+                // Switch to second-level quiz
+                currentLevel = "bts";
+                currentQuestion = 0;
+                answers = [];
+                quizResult.textContent = `Category selectioner: ${labels[selectedCategory]}. On va maintenant affiner votre résultat avec des questions spécifiques à cette catégorie.`;
+                renderQuestion();
+            } else {
+                // BTS level finished
+                const scores = {};
+                answers.forEach(ans => { scores[ans] = (scores[ans] || 0) + 1; });
+                const winner = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
+
+                quizResult.textContent = `Formation BTS recommandée: ${winner} (${labels[selectedCategory]}).`;
+                summaryPanel.hidden = false;
+                summaryGrid.innerHTML = "";
+                const total = answers.length;
+                Object.entries(scores).forEach(([key, count]) => {
+                    const percent = Math.round((count / total) * 100);
+                    const row = document.createElement("div");
+                    row.className = "summary-row";
+                    row.innerHTML = `<span>${key}</span><div class="summary-bar"><span style="width:${percent}%"></span></div><strong>${percent}%</strong>`;
+                    summaryGrid.appendChild(row);
+                });
+                summaryBest.textContent = `Meilleure correspondance: ${winner} (${Math.round((scores[winner]/total)*100)}%).`;
+            }
+        });
+
+        quizReset.addEventListener("click", () => {
+            quizMainTitle.textContent = "Quelle catégorie BTS correspond à votre personnalité ?";
+            quizSubtitle.textContent =
+                "Répondez à quelques questions rapides et nous vous suggérerons la catégorie BTS qui correspond le mieux à votre style.";
+
+            quizForm.reset();
+            quizResult.textContent = "";
+            quizResult.className = "quiz-result";
+            summaryPanel.hidden = true;
+            summaryGrid.innerHTML = "";
+            summaryBest.textContent = "";
+            currentQuestion = 0;
+            currentLevel = "category";
+            selectedCategory = null;
+            answers = [];
+            renderQuestion();
+        });
+
+        renderQuestion();
+    </script>
+
+</body>
+</html>
