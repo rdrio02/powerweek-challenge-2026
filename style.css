@@ -89,6 +89,11 @@ a {
 .lang-switch {
     gap: 8px;
     font-weight: 600;
+    display: flex; 
+}
+
+.lang-switch .separator {
+    line-height: 2.5;
 }
 
 .site-nav a {
@@ -792,7 +797,7 @@ section {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1120px) {
     .site-header {
         flex-direction: column;
         height: auto;
@@ -815,3 +820,13 @@ section {
     }
 }
 
+@media (max-width: 700px) {
+    .nav-links {
+        display: none;
+    }
+
+    .site-nav {
+        justify-content: center;
+        gap: 16px;
+    }
+}
